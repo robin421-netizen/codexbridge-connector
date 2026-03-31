@@ -13,13 +13,13 @@ One-shot bootstrap scripts for connecting a personal computer to CodexBridge mob
 ### macOS
 
 ```bash
-/bin/bash -lc "$(curl -fsSL https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/codexbridge-connector/main/connect.sh)" -- --pair-code <PAIR_CODE> --expires 600
+/bin/bash -lc "$(curl -fsSL https://raw.githubusercontent.com/robin421-netizen/codexbridge-connector/main/connect.sh)" -- --pair-code <PAIR_CODE> --expires 600
 ```
 
 ### Windows (PowerShell)
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/codexbridge-connector/main/connect.ps1 -UseBasicParsing | iex; Start-CodexBridgeConnect -PairCode '<PAIR_CODE>' -Expires 600"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr https://raw.githubusercontent.com/robin421-netizen/codexbridge-connector/main/connect.ps1 -UseBasicParsing | iex; Start-CodexBridgeConnect -PairCode '<PAIR_CODE>' -Expires 600"
 ```
 
 ## What it does
